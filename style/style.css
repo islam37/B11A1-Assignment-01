@@ -1,0 +1,43 @@
+/* nav bar  */
+
+.nav-bar{
+  background-color:#F5F5F5;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:160px ;
+    margin-right: 160px;
+    padding: 0 20px;
+}
+.nav-p {
+  
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+#nav-batton{
+    background-color: #F5F5F5;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+/* Banner */
+
+.banner{
+background-color:#C6E4D6;
+margin: 20px 160px 20px 160px;
+    height:480px;
+    width: 1018px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center ;
+}
+
+
+
