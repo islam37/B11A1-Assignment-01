@@ -7,6 +7,7 @@
     align-items: center;
     margin-left:160px ;
     margin-right: 160px;
+    margin-top: 20;
     padding: 0 20px;
 }
 .nav-p {
@@ -32,12 +33,107 @@
 .banner{
 background-color:#C6E4D6;
 margin: 20px 160px 20px 160px;
-    height:480px;
-    width: 1018px;
+    width: 817px;
+    height: 350px;
+    padding: 100px ;
     display: flex;
     justify-content:space-between;
     align-items: center ;
+    border-radius: 24px;
+}
+#BD-2{
+    font-size: 24px;
+    font-weight: 500;
+    color:#0E0E0E;
+}
+.info-text{
+    font-size: 50px;
+    font-weight:bold;
+    color:#0E0E0E;
+}
+.banner-button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 34px 17px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
+/* the vision of future */
 
+.vision{
+    background-color: #fcfcff;
+    margin: 20px 160px;
+}
+.vision-heading
+{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.P-of-vision{
+    
+    text-align: center;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.parent
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+     gap:20px ;
+}
+#child1,#child2,#child3{
+    flex:1;
+    max-width: 300px;
+    background-color: #5490F5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition : transform 0.3s;
+    
+}
+#child2{
+    background-color: #F5A962;
+}
+#child3{
+    background-color: #F56262;
+}
+#child1:hover,#child2:hover,#child3:hover{
+    transform: scale(1.05);
+}
+#b1,#b2,#b3{
+    font-size: 25px;
+    font-weight:100;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#b2{
+    background-color: #09A15C;
+}
+#b3{
+    background-color:#FFC239;
+}
+#child1 button:hover,#child2 button:hover,#child3 button:hover{
+    background-color: #006A50;
+}
+.sec-2{
+    text-align:lest ;
+    margin-top:20;
+}
+.speech{
+    font-size:16px;
+    color:#0E0E0E;
+    margin-bottom: 5px;
+}
