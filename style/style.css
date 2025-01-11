@@ -340,8 +340,7 @@ footer{
 /* footer-nav */
 .nav-header-ion{
    display: flex;
-
-   flex-wrap: nowrap;
+flex-wrap: nowrap;
    flex-direction:column ;
    background-color: #FFFFFF;
    display: block;
@@ -353,10 +352,17 @@ footer{
     text-align: center;
     align-items: center;
     margin-top: 20px;
+
 }
-#icon{
-    display: block;
-    margin-right: auto;
-    width: 50%;
-    
+
+/* challenging part (using quotation symbol in background */
+
+#edit{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+background-size:30px;
+
+
+
+
 }
