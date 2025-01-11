@@ -203,3 +203,67 @@ border-radius: 8px;
     color: #006A50;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/* Donate section  */
+.donate{
+    background-color: #fcfcff;
+    margin: 20px 160px;
+    padding: 20px;
+}
+.headlie{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:10px;
+    color: #0E0E0E;
+}
+.descrp{
+    font-size: 18px;
+    color: #4e4e4e;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.father{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.one{
+    flex:1;
+    max-width: 300px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition : transform 0.3s;
+}
+
+#speacial{
+    background-color: #C6E4D6;
+}
+.select-amount{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#do-nate{
+    text-align: center;
+    
+}
+#donate-buttone{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: 1px solid #006A50;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
